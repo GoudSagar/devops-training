@@ -10,10 +10,9 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v2
       - name: Create Pull Request
-        uses: repo-sync/pull-request@v2
+        uses: devops-training/pull-request@v2
         with: 
-            commit-message: Weekly Update from Release to Master
-            title: Branch Sync - Weekly Update from Release to Master
-            body: Cloud - Update available list
+            pr_title: Branch Sync - Weekly Update from Release to Master
             base: main
-            branch: release
+            destination_branch: main
+            source_branch: release
