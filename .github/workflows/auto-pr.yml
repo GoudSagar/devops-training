@@ -16,3 +16,4 @@ jobs:
             destination_branch: main
             source_branch: release
             github_token: ${{ secrets.GITHUB_TOKEN}}
+            pr_reviewer: GoudSagar
