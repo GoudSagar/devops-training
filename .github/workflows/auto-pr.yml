@@ -1,8 +1,7 @@
 name: pull request from release to master
 on:
-  push:
-    branches:
-      - main
+schedule:
+    - cron: "0 21 * * *"
 jobs:
   masterPromotion:
     runs-on: ubuntu-latest
