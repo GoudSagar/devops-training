@@ -10,7 +10,7 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v2
       - name: Create Pull Request
-        uses: GoudSagar/pull-request@v2
+        uses: repo-sync/pull-request@v2
         with: 
             pr_title: Branch Sync - Weekly Update from Release to Master
             base: main
