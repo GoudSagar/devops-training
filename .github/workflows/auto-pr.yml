@@ -1,7 +1,6 @@
 name: pull request from release to master
 on:
-schedule:
-    - cron: "0 21 * * *"
+  schedule: [{cron: "* 21 * * *"}]
 jobs:
   masterPromotion:
     runs-on: ubuntu-latest
