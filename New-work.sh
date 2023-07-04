@@ -1,3 +1,6 @@
+
+
+New POll SCM
 Git overview -- done
 GIT architecture -- done
 What VCS ? why vcs and types of VCS? -- done
